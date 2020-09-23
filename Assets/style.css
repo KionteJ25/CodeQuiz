@@ -1,0 +1,13 @@
+#quiz {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}

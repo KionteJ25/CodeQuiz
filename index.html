@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+     <meta charset="UTF-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Coding Quiz</title>
+     <link rel="stylesheet" href="./Assets/style.css">
+     <script src="./Assets/logic.js"></script>
+     
+</head>
+
+<body>
+ <div id="nav">
+    <!--view scores link in upper left corner-->
+    <div class="left">
+    <a onclick="getScore()" href="#">View Highscore</a>
+    </div>
+    
+    <!--Countdown timer in upper right corner-->
+    <div class="right">
+        <h4>Timer: <span id="timeCount"> 0</span></h4>
+    </div>
+ </div>
+
+<!--Quiz container-->
+ <div id="quiz">
+ <div id="quizArea">
+     <h1>Coding Quiz!</h1>
+
+     <button onclick="start()">Start Quiz!</button>
+ </div>
+ </div>
+ 
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" 
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+crossorigin="anonymous"></script>
+
+
+</body>
+</html>
